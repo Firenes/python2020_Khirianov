@@ -1,5 +1,10 @@
 import turtle
 
+def draw_circle():
+    for i in range(360):
+        turtle.forward(1)
+        turtle.left(1)
+
 turtle.shape('turtle')
 
 turtle.penup()
@@ -8,9 +13,3 @@ turtle.left(90)
 turtle.pendown()
 
 draw_circle()
-
-
-def draw_circle():
-    for i in range(360):
-        turtle.forward(1)
-        turtle.left(1)
